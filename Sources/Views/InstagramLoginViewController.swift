@@ -19,8 +19,8 @@ class InstagramLoginViewController: UIViewController {
     // MARK: - Properties
 
     private var authURL: URL
-    private var success: SuccessHandler?
-    private var failure: FailureHandler?
+    fileprivate var success: SuccessHandler?
+    fileprivate var failure: FailureHandler?
 
     private var progressView: UIProgressView!
     private var webViewObservation: NSKeyValueObservation!
